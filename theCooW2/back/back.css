@@ -1,7 +1,0 @@
-﻿div#image {
-	position: fixed;
-	overflow: hidden;
-}
-div#image div.inner {
-	position: relative;
-}
