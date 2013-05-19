@@ -1,0 +1,30 @@
+﻿@charset "utf-8"; 
+
+
+
+/* --------------------------------------------------------------------------------
+essential
+-------------------------------------------------------------------------------- */
+
+body {
+	text-align: left;
+	font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "MS PGothic", sans-serif;
+	font-size: 13px;
+	line-height: 30px;
+	color: #333333;
+}
+
+
+
+/* --------------------------------------------------------------------------------
+image
+-------------------------------------------------------------------------------- */
+
+div#image {
+	position: fixed;
+	overflow: hidden;
+	z-index: -999;
+}
+div#image div.inner {
+	position: relative;
+}
