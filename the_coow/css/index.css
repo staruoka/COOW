@@ -98,34 +98,28 @@ div#member {
 
 div#frame {
 	width: 1000px;
-	height: 700px;
+	height: 820px;
 	margin: auto;
 	clear: both;
 }
 
 dl.box {
-	width: 183px;
+	width: 320px;
 	margin-top: 50px;
-	margin-right: 100px;
-	position: relative;
-	left: 20%;
 	float: left;
 }
 
 dl.box dt {
+	width: 280px;
 	margin: 10px;
-	margin-bottom: 0px;
-	position: relative;
-	left: -50%;
+	margin-bottom: 20px;
 	float: left;
 }
 
 dl.box dd {
-	width: 183px;
-	clear: both;
+	width: 280px;
 	text-align: center;
-	position: relative;
-	left: -45%;
+	clear: both;
 }
 
 .clear {
