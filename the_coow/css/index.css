@@ -103,6 +103,7 @@ div#frame {
 	margin: auto;
 	clear: both;
 }
+
 div#director {
 	width: 1000px;
 	height: 320px;
@@ -136,4 +137,26 @@ dl.box dd {
 .clear {
 	clear: both;
 }
+
+/*コンタクト*/
+div#CONTACTWRAP {
+	width: 100%;
+	height: 1200px;
+	margin-top: 20%;
+	background: #fff;
+	z-index: 7;
+
+div#contact {
+	width: 1000px;
+	height:510px;
+	margin: auto;
+	clear: both;
+}
+
+div#contat.h2 {
+	width: 1000px;
+	margin-top: 200px;
+}
+
+
 
