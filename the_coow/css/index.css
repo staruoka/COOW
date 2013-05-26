@@ -52,7 +52,7 @@ div#ABOUTWRAP {
 	z-index: 7;
 }
 
-div#about, div#member {
+div#about, div#member, div#contact {
 	width: 1000px;
 	height: 1000px;
 	margin: auto;
@@ -145,17 +145,16 @@ div#CONTACTWRAP {
 	margin-top: 20%;
 	background: #fff;
 	z-index: 7;
+}
 
 div#contact {
-	width: 1000px;
-	height:510px;
-	margin: auto;
-	clear: both;
+	height: 1200px;
 }
 
 div#contat.h2 {
 	width: 1000px;
 	margin-top: 200px;
+	clear: both;
 }
 
 
