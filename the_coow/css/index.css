@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 * {
 	margin: 0px;
@@ -87,7 +87,7 @@ div#about p + p + p {
 div#MEMBERWRAP {
 	width: 100%;
 	height: 1200px;
-	margin-top: 20%;
+	margin-top: 40%;
 	background: #fff;
 	z-index: 7;
 }
@@ -142,20 +142,34 @@ dl.box dd {
 div#CONTACTWRAP {
 	width: 100%;
 	height: 1200px;
-	margin-top: 20%;
+	margin-top: 40%;
 	background: #fff;
 	z-index: 7;
 }
 
 div#contact {
-	height: 1200px;
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	padding-left: 80px;
 }
 
-div#contat.h2 {
+div#contact.h2 {
 	width: 1000px;
 	margin-top: 200px;
-	clear: both;
+
 }
 
+div#contact td{
+	padding-top: 30px;
+	padding-left: 40px;
+	vertical-align: top;
+}
 
+input, textarea {
+	border: solid 3px #00003D;
+}
 
+input {
+	width: 200px;
+}

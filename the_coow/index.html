@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="ja">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -32,7 +32,7 @@
 				<ul>
 					<li><a href="#ABOUTWRAP"><img src="./img/icon/about.png" alt="アバウト"></a></li>
 					<li><a href="#MEMBERWRAP"><img src="./img/icon/member.png" alt="メンバー"></a></li>
-					<li><img src="./img/icon/contact.png" alt="コンタクト"></li>
+					<li><a href="#CONTACTWRAP"><img src="./img/icon/contact.png" alt="コンタクト"></a></li>
 					<li><img src="./img/icon/blog.png" alt="ブログ"></li>
 				</ul>
 				<p><img src="./img/hd_line.png" alt="*"></p>
@@ -115,11 +115,34 @@
 		<div id="CONTACTWRAP">
 			<div id="contact">
 				<h2><img src="./img/contact_title.png" alt="コンタクト"></h2>
+
 					<form action="test.php" method="post">
-						<p><img src="./img/your_name.png" alt="*"><input type="text" name="name"></p>
-						<p><img src="./img/e-mail_address.png" alt="*"><input type="text" name="address"></p>
-						<p><img src="./img/message.png" alt="*"><input type="text" name="message"></p>
-						<p><input type="image" src="img/submit_button.png" alt="送信ボタン"></p>
+						<table>
+							<tbody>
+
+								<tr>
+									<td><img src="./img/your_name.png" alt="*"></td>
+									<td><input type="text" name="name"></td>
+								</tr>
+
+								<tr>
+									<td><img src="./img/e-mail_address.png" alt="*"></td>
+									<td><input type="text" name="addres"></td>
+								</tr>
+
+								<tr>
+									<td><img class="msg" src="./img/message.png" alt="*"></td>
+									<td><textarea name="message" cols="60" rows="15"></textarea></td>
+								</tr>
+
+
+								<tr>
+									<td></td>
+									<td><input type="image" src="img/submit_button.png" alt="送信ボタン"></td>
+								</tr>
+
+							</tbody>
+						</table>
 					</form>
 
 			</div>
