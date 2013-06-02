@@ -202,6 +202,8 @@ div#blog h2 {
 
 div#blog div{
 	text-align:center;
+	line-height:200%;
+	font:120%;
 }
 #enter {
 	margin:140px 0px 40px 270px;
