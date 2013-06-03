@@ -149,7 +149,7 @@ div#CONTACTWRAP {
 
 div#contact {
 	width: 1000px;
-	height: 800px;
+	height: 1120px;
 	margin: auto;
 	padding-left: 40px;
 }
@@ -166,17 +166,20 @@ div#contact td{
 	vertical-align: top;
 }
 
-input, textarea {
+textarea {
+	width: 540px;
+	height: 260px;
 	border: solid 3px #00003D;
 }
 
-textarea {
-	width: 540px;
-	height: 260;
+.text {
+	width: 360px;
+	border: solid 3px #00003D;
 }
 
-input {
-	width: 360px;
+#submit_btm {
+	width:280ox;
+	height:85px;
 }
 /*ブログ*/
 div#BLOGWRAP {
