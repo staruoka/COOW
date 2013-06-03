@@ -1,8 +1,12 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 * {
 	margin: 0px;
 	padding: 0px;
+}
+
+img {
+	border: none;
 }
 
 /*ヘッダー*/
@@ -149,7 +153,7 @@ div#CONTACTWRAP {
 
 div#contact {
 	width: 1000px;
-	height: 1120px;
+	height: 1020px;
 	margin: auto;
 	padding-left: 40px;
 }
@@ -158,6 +162,10 @@ div#contact h2 {
 	width: 1000px;
 	margin-top: 200px;
 	margin-bottom: 80px;
+}
+
+div#contact form {
+	clear: both;
 }
 
 div#contact td{
